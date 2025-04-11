@@ -1,0 +1,123 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 50px;
+  } 
+  
+  .title-order{
+    height: 100px;
+    width: 100%;
+    padding-right: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .featured-section {
+    display: flex;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #e31717;
+  }
+
+  .top-text {
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .title-pharmacy {
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .reference {
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+  .reference-img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px;
+    position: relative;
+  }
+  
+  .button {
+    background-color: #e31717;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f08c00;
+  }
+  
+  .product-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: fff716;
+  }
+
+  .circle {
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
